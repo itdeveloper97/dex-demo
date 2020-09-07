@@ -1,0 +1,92 @@
+.itemCardSection {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 20px rgba(40, 40, 40, 0.05);
+    border-radius: 10px;
+    padding: 24px 95px 24px 95px;
+    min-height: 800px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-between;*/
+    margin: 74px 0px;
+}
+
+.dividingLine {
+    border: 1px solid #E0E0E0;
+}
+
+.link {
+    cursor: pointer;
+    font-size: 14px;
+    color: #2F80ED;
+    border-bottom: 1px solid #2F80ED;
+    width: fit-content;
+    position: absolute;
+    top: 24px;
+}
+
+.header {
+    position: relative;
+    height: 89px;
+}
+.content {
+    padding: 24px 0px;
+    display: flex;
+}
+.detailPicture {
+    width: 350px;
+    height: 190px;
+    margin-bottom: 40px;
+}
+.detailPicture img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.property,
+.price {
+    margin-top: 24px;
+}
+
+.propName {
+    font-size: 16px;
+}
+label.propNameDropdown {
+    margin-bottom: 4px;
+}
+div.propName,
+.priceName {
+    margin-bottom: 12px;
+}
+.propValueSmall {
+    font-size: 14px;
+    color: #828282;
+}
+.priceValue {
+    font-size: 22px;
+    color: black;
+}
+
+.rightBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+    max-width: 540px;
+}
+
+.productName {
+    font-size: 24px;
+    color: #000000;
+    margin: 0px 0px 40px 0px;
+}
+
+.description {
+    color: #828282;
+}
+
+.select {
+    max-width: 255px;
+    height: 32px;
+    margin: 4px 0px 24px 0px;
+}

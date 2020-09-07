@@ -1,0 +1,15 @@
+.search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex1 {
+    flex-grow: 4;
+    margin-right: 6%;
+}
+
+.flex2 {
+    flex-grow: 1;
+    margin-left: 6%;
+}

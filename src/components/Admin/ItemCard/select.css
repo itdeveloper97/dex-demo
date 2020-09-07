@@ -1,0 +1,17 @@
+.select__value-container {
+    position: unset !important;
+}
+
+.select__control,
+.select__control > * {
+    height: 100%;
+    min-height: 32px !important;
+}
+
+.select__indicator-separator {
+    display: none;
+}
+
+.select__indicator svg {
+    color: #2F80ED;
+}

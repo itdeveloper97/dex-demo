@@ -1,0 +1,52 @@
+.btnBlock {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-left: 30px;
+}
+
+.formControl {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin: 8px 0px;
+}
+
+.label {
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.formСheck {
+    display: flex;
+}
+
+.fieldBlock {
+    position: relative;
+}
+
+.controlLabel:after {
+    content:"*";
+    color:red;
+}
+
+.fieldsBlock {
+    padding-top: 21px;
+}
+
+.title {
+    margin-bottom: 24px;
+}
+
+.typePropsLabel {
+    margin-top: 16px;
+}
+

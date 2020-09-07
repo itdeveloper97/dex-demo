@@ -1,0 +1,66 @@
+.tr {
+    height: 48px;
+    mix-blend-mode: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.th {
+    font-weight: bold;
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.8;
+}
+
+.thAfter {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.thAfter:before {
+    content: "\2039";
+    transform: rotate(270deg);
+    position: absolute;
+    left: -26px;
+    font-size: 22px;
+    font-family: cursive;
+    opacity: 0.5;
+}
+
+.th.thThink {
+    font-weight: normal;
+    color: #828282;
+    opacity: 0.8;
+}
+
+.th,
+.td {
+    flex: 5 5 20%;
+}
+
+.textRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.td {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.deleteProperty {
+    width: fit-content;
+    cursor: pointer;
+    color: #0258FF;
+    border-bottom: 1px solid #0258FF;
+}
+
+
+@media(max-width: 415px) {
+    .th {
+        font-size: 14px;
+    }
+}

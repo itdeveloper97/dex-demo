@@ -1,0 +1,16 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.item.active {
+    border: 1px solid black;
+}
