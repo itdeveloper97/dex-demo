@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dex-demo.iml" filepath="$PROJECT_DIR$/.idea/dex-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dex-first-project-part2.iml" filepath="$PROJECT_DIR$/.idea/dex-first-project-part2.iml" />
     </modules>
   </component>
 </project>
